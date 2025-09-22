@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-bg {
+    background: linear-gradient(135deg, #964b00 0%, #e75e0ff1 50%, #dd2f03 100%);
+}
+
+.capoeira-pattern {
+    /*background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='https://i.pinimg.com/1200x/14/d1/9b/14d19be43d586424873688b57776fc22.jpg");*/
+    background-color: #972f05;
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.berimbau-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #8B4513, #D2691E);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
